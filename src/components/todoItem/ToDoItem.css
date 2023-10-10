@@ -1,0 +1,44 @@
+.Todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    color: #363636;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.taskNumber{
+    margin-left: 5%;
+}
+
+.taskText {
+    max-width: 200px;
+    width: 100%;
+    color: #181818;
+    margin-left: 5%;
+    word-wrap: break-word;
+}
+
+input[type=checkbox] {
+    transform: scale(1.5);
+}
+
+.edit-button,
+.delete-button {
+    background: #3994d6;
+    color: #ffffff;
+    border: none;
+    width: 100%;
+    padding: 0.55rem;
+    margin-top: 0.5rem;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+    background: #2a8cd4;
+}
