@@ -1,4 +1,4 @@
-# Task Checklist - Live Nation Technical Task
+# Task Checklist 
 ### Dilan Aktas
 
 Task Checklist is a user-friendly to-do application designed for 
